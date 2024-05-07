@@ -9,7 +9,7 @@ int main()
 	printf("Enter the length of the word you want to check:\n");
 	scanf("%d",&a);
 	char arr1[a],arr2[a];
-	if(a>2)
+	if(a>1)
 	{
 		printf("Enter a word with %d letters\n",a);
 		scanf("%s",arr1);
